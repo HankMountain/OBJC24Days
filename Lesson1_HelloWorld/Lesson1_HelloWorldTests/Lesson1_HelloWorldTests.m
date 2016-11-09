@@ -1,6 +1,6 @@
 //
-//  OBJC24DaysTests.m
-//  OBJC24DaysTests
+//  Lesson1_HelloWorldTests.m
+//  Lesson1_HelloWorldTests
 //
 //  Created by Hank on 2016/11/9.
 //  Copyright © 2016年 Hank. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface OBJC24DaysTests : XCTestCase
+@interface Lesson1_HelloWorldTests : XCTestCase
 
 @end
 
-@implementation OBJC24DaysTests
+@implementation Lesson1_HelloWorldTests
 
 - (void)setUp {
     [super setUp];
