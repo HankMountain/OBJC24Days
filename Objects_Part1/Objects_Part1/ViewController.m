@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <Foundation/Foundation.h>
+#import "Fraction.h"
 
 @interface ViewController ()
 
@@ -14,9 +16,18 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    Fraction *myFraction = [[Fraction alloc] init];
+    [myFraction setNumerator: 2];
+    [myFraction setDenominator: 5];
+    
+    NSLog(@"myFraction has a value of : ");
+    [myFraction display];
+    
 }
 
 - (void)didReceiveMemoryWarning {

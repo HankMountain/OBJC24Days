@@ -16,6 +16,7 @@
 		36DA6AF61DD97C9600B67DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DA6AF41DD97C9600B67DFC /* LaunchScreen.storyboard */; };
 		36DA6B011DD97C9600B67DFC /* Objects_Part1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA6B001DD97C9600B67DFC /* Objects_Part1Tests.m */; };
 		36DA6B0C1DD97C9600B67DFC /* Objects_Part1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA6B0B1DD97C9600B67DFC /* Objects_Part1UITests.m */; };
+		36DA6B1B1DD9888C00B67DFC /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA6B1A1DD9888C00B67DFC /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		36DA6B071DD97C9600B67DFC /* Objects_Part1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Objects_Part1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DA6B0B1DD97C9600B67DFC /* Objects_Part1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objects_Part1UITests.m; sourceTree = "<group>"; };
 		36DA6B0D1DD97C9600B67DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA6B191DD9888C00B67DFC /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		36DA6B1A1DD9888C00B67DFC /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				36DA6AE71DD97C9600B67DFC /* AppDelegate.m */,
 				36DA6AE91DD97C9600B67DFC /* ViewController.h */,
 				36DA6AEA1DD97C9600B67DFC /* ViewController.m */,
+				36DA6B191DD9888C00B67DFC /* Fraction.h */,
+				36DA6B1A1DD9888C00B67DFC /* Fraction.m */,
 				36DA6AEC1DD97C9600B67DFC /* Main.storyboard */,
 				36DA6AF21DD97C9600B67DFC /* Assets.xcassets */,
 				36DA6AF41DD97C9600B67DFC /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 				36DA6AE81DD97C9600B67DFC /* AppDelegate.m in Sources */,
 				36DA6AE51DD97C9600B67DFC /* main.m in Sources */,
 				36DA6AF11DD97C9600B67DFC /* Objects_Part1.xcdatamodeld in Sources */,
+				36DA6B1B1DD9888C00B67DFC /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
